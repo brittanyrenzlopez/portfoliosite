@@ -53,7 +53,7 @@ a:hover, a:focus {
 .clearfix {
 	display: block;
 }
-/* Navigation */
+
 #menu {
 	padding: 20px;
 	transition: all 0.8s;
@@ -121,12 +121,12 @@ a:hover, a:focus {
 	transition: all 0.3s;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-     border: 5px solid gold;
+  border: 5px solid gold;
   background-color: transparent;
-    transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   box-shadow: 0 0 5px black, 0 0 4px #fff, 0 0 5px gold, 0 0 6px gold, 0 0 7px gold, 0 0 8px gold, 0 0 10px white;
 }
-/* Header Section */
+
 .intro {
 	display: table;
 	width: 100%;
@@ -150,6 +150,7 @@ a:hover, a:focus {
 	text-shadow: 1px 1px 0 #000, margin: 10px 0 24px;
 	text-align: center;
 }
+
 .intro p {
 	position: relative;
 	top: 160px;
@@ -186,7 +187,7 @@ header .intro-text {
 	padding-top: 325px;
 	padding-bottom: 250px;
 }
-/* About Section */
+
 #about {
 	padding: 120px 0;
 	background: #c9c9c9;
@@ -202,7 +203,7 @@ header .intro-text {
 	margin-bottom: 30px;
 	line-height: 21px;
 }
-/* Portfolio Section */
+
 #portfolio {
 	padding: 120px 0;
 	background: #050505;
@@ -217,34 +218,28 @@ header .intro-text {
 	padding: 5px;
 	color: #E87E04;
 }
-/* Contact Section */
+
 #contact {
 	padding: 120px 0 60px 0;
 	background: #c9c9c9;
 	color: black;
 }
-label {
-	font-size: 12px;
-	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
-	float: left;
-}
+
  a:focus,a:hover{
-text-decoration: none;
-cursor: pointer;
-color: gold;
-text-shadow: none;
--webkit-transition: 500ms linear 0s;
--moz-transition: 500ms linear 0s;
--o-transition: 500ms linear 0s;
-transition: 500ms linear 0s;
-outline: 0 none;
-text-shadow: 1px 0px 20px white;
+	text-decoration: none;
+	cursor: pointer;
+	color: gold;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+	text-shadow: 1px 0px 20px white;
  }
 
 @media (max-width: 1024px) {
 #about img {
 	float: left;
 	margin-bottom: 20px;
-}
 }
