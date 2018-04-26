@@ -13,7 +13,24 @@ h2 {
 	color: black;
 }
 #portfolio h2 {
+	text-align: center;
 	color: whitesmoke;
+}
+
+#portfolio img {
+	padding-bottom: 10px;
+}
+ 
+#portfolio {
+	text-align: center;
+}
+#portfolio p {
+	color: whitesmoke;
+	font-size: 16px;
+}
+
+#portfolio a {
+	font-size: 18px;
 }
 #contact h2 {
 	color: black;
