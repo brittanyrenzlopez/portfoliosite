@@ -13,8 +13,8 @@ h2 {
 	color: black;
 }
 #portfolio h2 {
-	text-align: center;
 	color: whitesmoke;
+	text-align: center;
 }
 
 #portfolio img {
@@ -27,6 +27,7 @@ h2 {
 #portfolio p {
 	color: whitesmoke;
 	font-size: 16px;
+	padding-bottom: 20px;
 }
 
 #portfolio a {
@@ -230,16 +231,20 @@ header .intro-text {
 	text-align: center;
 }
 
-#portfolio i.fa {
-	font-size: 20px;
-	padding: 5px;
-	color: #E87E04;
-}
-
 #contact {
 	padding: 120px 0 60px 0;
 	background: #c9c9c9;
 	color: black;
+}
+
+#linkd{
+	width: 40px;
+	height: 44px;
+	margin: 0 auto;
+}
+
+.container h2{
+	text-align: center;
 }
 
  a:focus,a:hover{
@@ -254,6 +259,7 @@ header .intro-text {
 	outline: 0 none;
 	text-shadow: 1px 0px 20px white;
  }
+
 
 @media (max-width: 1024px) {
 #about img {
