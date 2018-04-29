@@ -246,6 +246,11 @@ header .intro-text {
 	font-size: 21px;
 }
 
+#contact p{
+	color: black;
+	font-size: 21px;
+}
+
 ul {
 	list-style: none;
 }
