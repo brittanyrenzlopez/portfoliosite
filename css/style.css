@@ -237,6 +237,22 @@ header .intro-text {
 	color: black;
 }
 
+#contact a{
+	color: black;
+	float: left;
+	display: block;
+	text-align: left;
+	width: 360px;
+	font-size: 21px;
+}
+
+ul {
+	list-style: none;
+}
+
+#contact a:hover{
+	text-decoration: underline;
+}
 #linkd{
 	width: 40px;
 	height: 44px;
