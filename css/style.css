@@ -249,6 +249,7 @@ header .intro-text {
 #contact p{
 	color: black;
 	font-size: 21px;
+	float: left;
 }
 
 ul {
