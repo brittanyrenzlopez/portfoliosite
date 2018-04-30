@@ -1,6 +1,6 @@
 # My Portfolio
 
-# Technology Used
+### Technology Used
 - HTML
 - CSS
 - Bootstrap
