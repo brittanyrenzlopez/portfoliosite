@@ -22,20 +22,22 @@ h2 {
 }
  
 #portfolio {
+	padding: 120px 0;
+	background: #050505;
 	text-align: center;
 }
 #portfolio p {
 	color: whitesmoke;
 	font-size: 16px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	width: 75%;
+	margin: 25px auto 50px;
 }
 
 #portfolio a {
 	font-size: 18px;
 }
-#contact h2 {
-	color: black;
-}
+
 h3, h4 {
 	font-size: 18px;
 	font-weight: 300;
@@ -222,34 +224,13 @@ header .intro-text {
 	line-height: 21px;
 }
 
-#portfolio {
-	padding: 120px 0;
-	background: #050505;
-}
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
 }
 
-#contact {
-	padding: 120px 0 60px 0;
-	background: #c9c9c9;
-	color: black;
-}
-
-#contact a{
-	color: black;
-	float: left;
-	display: block;
-	text-align: left;
-	width: 360px;
-	font-size: 21px;
-}
-
-#contact p{
-	color: black;
-	font-size: 21px;
-	float: left;
+#footer a{
+	margin-right: 25px;
 }
 
 label {
@@ -258,15 +239,6 @@ label {
 
 ul {
 	list-style: none;
-}
-
-#contact a:hover{
-	text-decoration: underline;
-}
-#linkd{
-	width: 40px;
-	height: 44px;
-	margin: 0 auto;
 }
 
 .container h2{
