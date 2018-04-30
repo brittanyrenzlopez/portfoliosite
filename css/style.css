@@ -229,6 +229,11 @@ header .intro-text {
 	text-align: center;
 }
 
+#footer {
+	text-align: center;
+	margin-left: 18px;
+}
+
 #footer a{
 	margin-right: 25px;
 }
