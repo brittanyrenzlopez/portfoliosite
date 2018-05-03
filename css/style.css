@@ -75,8 +75,8 @@ a:hover, a:focus {
 }
 
 #menu {
-	padding: 20px;
-	transition: all 0.8s;
+	padding: 10px;
+	position: absolute;
 }
 #menu.navbar-default {
 	background-color: rgba(248, 248, 248, 0);
@@ -110,7 +110,7 @@ a:hover, a:focus {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #050505;
-	border-color: whitesmoke;
+	border-color: #050505;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
